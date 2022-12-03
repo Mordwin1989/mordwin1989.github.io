@@ -1,0 +1,74 @@
+body {
+	background-color: #fff;
+	margin: 0;
+	font-family: 'Arial';
+}
+h2{
+	text-align: center;
+	width: 100%;
+	/*padding-left: 50px;*/
+}
+.flex-grid{
+	background-color: #444444;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.col p{
+	color: #00ffff;
+	height: 70px;
+	width: 160px;
+	background-color: #999999;
+	text-align: center;
+	line-height: 70px;
+	font-size: 50px;
+	border-radius: 10px;
+	margin: 25px;
+	cursor: default;
+	user-select: none;
+}
+
+button{
+	height: 40px;
+	width: 130px;
+	font-weight: bold;
+}
+
+a{
+	text-decoration: none;
+}
+
+.modal{
+	display: none; /* Hidden by default */
+	z-index: 1; /* Sit on top */
+	position: fixed; /* Stay in place */
+	padding-top: 100px;  /* Location of the box */
+	left: 0;
+	top: 0;
+	width: 100%; /* Full width */
+	height: 100%; /* Full height */
+	background-color: #444444;
+}
+
+.modal-content {
+	background-color: #444444;
+	height: 70%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.modal-content p{
+	color: #00ffff;
+	height: 165px;
+	width: 370px;
+	background-color: #999999;
+	text-align: center;
+	line-height: 160px;
+	font-size: 120px;
+	border-radius: 25px;
+	margin: 25px;
+	user-select: none;
+}

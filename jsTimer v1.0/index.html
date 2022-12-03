@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8 />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<title>Countdown timer</title>
+		<link rel="stylesheet" href="styles/style.css" />
+	</head>
+	<body>
+		<h2>EZ Rest</h2>
+		<!--This is the main timer area-->
+		<div class="flex-grid">
+			<div class="col">
+				<p class="timers" id="1">1:00</p>
+				<p class="timers" id="3">2:00</p>
+			</div>
+			<div class="col">
+				<p class="timers" id="2">1:30</p>
+				<p class="timers" id="4">3:00</p>
+			</div>
+		</div>
+		
+		<!-- The Modal -->
+		<div id="myModal" class="modal">
+			<!-- Modal content -->
+			<div class="modal-content">
+				<p id="activeTimer"></p><!--temp placeholder time-->
+			</div>
+		</div>
+	
+		<script src="app.js"></script>
+	</body>
+</html>
